@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+double c2f(double);
+int main()
+{
+	cout << "Please enter a Ceelsius value: ";
+	int ce;
+	cin >> ce;
+	cout << ce <<" degrees Celsius is "<<c2f(ce)   << " degrees Fahreeheit";
+	system("pause");
+
+	return 0;
+}
+
+double c2f(double n) 
+{
+	return 1.8*n + 32.0;
+}

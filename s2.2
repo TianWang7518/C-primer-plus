@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+double long2yard(double);
+int main()
+{
+	cout << "please enter a number of long: " << endl;
+	double lg;
+	cin >> lg;
+	cout << "it is " << long2yard(lg) << " yard" << endl;
+	system("pause");
+
+	return 0;
+}
+
+double long2yard(double n)
+{
+	return n * 220;
+}
